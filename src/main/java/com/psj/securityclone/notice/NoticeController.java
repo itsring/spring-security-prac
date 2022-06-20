@@ -1,7 +1,7 @@
 package com.psj.securityclone.notice;
 
+import com.psj.securityclone.note.NoteRegisterDto;
 import lombok.RequiredArgsConstructor;
-import me.benny.practice.spring.security.note.NoteRegisterDto;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
