@@ -2,6 +2,8 @@ package com.psj.securityclone.config;
 
 import com.psj.securityclone.jwt.JwtAuthenticationFilter;
 import com.psj.securityclone.jwt.JwtAuthorizationFilter;
+import com.psj.securityclone.jwt.JwtProperties;
+import com.psj.securityclone.user.User;
 import com.psj.securityclone.user.UserRepository;
 import com.psj.securityclone.user.UserService;
 import lombok.RequiredArgsConstructor;

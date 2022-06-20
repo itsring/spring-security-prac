@@ -13,6 +13,7 @@ import org.springframework.context.annotation.Profile;
 /**
  * 초기 상태 등록 Config
  */
+
 @Configuration
 @RequiredArgsConstructor
 @Profile(value = "!test") // test 에서는 제외
@@ -28,6 +29,8 @@ public class InitializeDefaultConfig {
     @Bean
     public void initializeDefaultUser() {
         User user = userService.signup("user", "user");
+        // 개인 노트 작성
+
         noteService.saveNote(user, "테스트", "테스트입니다.");
         noteService.saveNote(user, "테스트2", "테스트2입니다.");
         noteService.saveNote(user, "테스트3", "테스트3입니다.");
