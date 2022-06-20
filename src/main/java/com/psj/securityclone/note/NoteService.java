@@ -1,8 +1,9 @@
 package com.psj.securityclone.note;
 
+import com.psj.securityclone.user.User;
+import com.psj.securityclone.user.UserNotFoundException;
 import lombok.RequiredArgsConstructor;
-import me.benny.practice.spring.security.user.User;
-import me.benny.practice.spring.security.user.UserNotFoundException;
+
 import org.springframework.data.domain.Sort;
 import org.springframework.data.domain.Sort.Direction;
 import org.springframework.stereotype.Service;

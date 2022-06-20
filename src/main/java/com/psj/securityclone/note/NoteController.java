@@ -1,7 +1,8 @@
 package com.psj.securityclone.note;
 
+import com.psj.securityclone.user.User;
 import lombok.RequiredArgsConstructor;
-import me.benny.practice.spring.security.user.User;
+
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
